@@ -2,7 +2,7 @@
 const Button = ({text}) => {
   return (
     <>
-        <button className="flex jus">
+        <button className="flex">
             {text}
         </button>
     </>

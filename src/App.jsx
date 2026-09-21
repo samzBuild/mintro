@@ -1,6 +1,12 @@
+import Hero from "./sections/Hero"
+import Navbar from "./sections/Navbar"
+
 const App = () => {
   return (
-    <div className="flex bg-black">App</div>
+    <>
+    <Navbar/>
+    <Hero/>
+    </>
   )
 }
 
