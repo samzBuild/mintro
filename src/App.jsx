@@ -1,3 +1,4 @@
+import ChoosUs from "./sections/ChoosUs"
 import Hero from "./sections/Hero"
 import Navbar from "./sections/Navbar"
 
@@ -6,6 +7,7 @@ const App = () => {
     <>
     <Navbar/>
     <Hero/>
+    <ChoosUs/>
     </>
   )
 }

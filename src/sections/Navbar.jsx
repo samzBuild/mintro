@@ -3,7 +3,7 @@ import Logo from "../components/Logo";
 
 const Navbar = () => {
   return (
-    <header className="flex w-screen">
+    <header className="flex w-screen fixed bg-[#FDF9F6] z-200">
       <div className= "flex items-center justify-between w-full mx-auto px-20 py-5">
         <Logo />
         <nav>

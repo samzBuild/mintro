@@ -2,7 +2,7 @@
 const Button = ({text}) => {
   return (
     <>
-        <button className="flex">
+        <button className="flex cursor-pointer">
             {text}
         </button>
     </>
