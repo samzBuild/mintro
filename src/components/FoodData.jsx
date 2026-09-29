@@ -214,6 +214,10 @@ const FoodData = [
     discount: 10,
     image: drinkImage,
   },
+  {
+    id: 21,
+    category: "All"
+  }
 ];
 
 export default FoodData;       
