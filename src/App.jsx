@@ -1,4 +1,5 @@
 import ChoosUs from "./sections/ChoosUs"
+import DownloadApp from "./sections/DownloadApp"
 import Hero from "./sections/Hero"
 import Menu from "./sections/Menu"
 import Navbar from "./sections/Navbar"
@@ -12,6 +13,7 @@ const App = () => {
     <ChoosUs/>
     <Menu/>
     <Testimonials/>
+    <DownloadApp/>
     </>
   )
 }

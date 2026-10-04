@@ -1,16 +1,15 @@
-
-const ChooseCard = ({animation, heading, para}) => {
+const ChooseCard = ({ animation, heading, para }) => {
   return (
-    <div className='flex flex-col justify-center items-center gap-2 text-center mx-auto'>
-        <div className="w-30 h-30 flex justify-center items-center mb-4">
-            <img src={animation} alt="" className="w-32" />
-        </div>
-        <div>
-        <h3 className='text-2xl font-bold'> {heading} </h3>
-        <p className="text-xl w-64"> {para} </p>
-        </div>
+    <div className="flex h-full w-full flex-col items-center rounded-2xl border border-black/5 bg-white p-6 text-center shadow-sm sm:p-8">
+      <img
+        src={animation}
+        alt=""
+        className="h-24 w-24 object-contain sm:h-28 sm:w-28"
+      />
+      <h3 className="mt-6 text-xl font-bold sm:text-2xl">{heading}</h3>
+      <p className="mt-2 max-w-xs text-base text-gray-600 sm:text-lg">{para}</p>
     </div>
-  )
-}
+  );
+};
 
-export default ChooseCard
+export default ChooseCard;

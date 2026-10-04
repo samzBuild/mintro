@@ -4,10 +4,13 @@ import SignIn from "./SignIn";
 
 const Actions = () => {
   return (
-    <div className="flex gap-6 items-center ">
+    <div className="flex items-center gap-1 sm:gap-3">
       <Search />
       <Cart />
-      <SignIn text="Sign in"/>
+      {/* On mobile, Sign in lives in the menu panel */}
+      <div className="ml-1 hidden sm:block">
+        <SignIn text="Sign in" />
+      </div>
     </div>
   );
 };

@@ -63,7 +63,7 @@ const Testimonials = () => {
 
         {/* Review */}
         <div className="mt-8">
-          <p className="text-xl">
+          <p className="text-xl left-animation">
             "{review.review}"
           </p>
 
