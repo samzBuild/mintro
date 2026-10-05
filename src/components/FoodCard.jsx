@@ -2,13 +2,13 @@ const FoodCard = ({ food }) => {
   const hasDiscount = Number(food.discount) > 0;
 
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm transition-shadow hover:shadow-md">
-      <div className="relative">
+    <article className="flex shrink-0 flex-col overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm transition-shadow hover:shadow-md">
+      <div className="relative w-64 aspect-3/4">
         <img
           src={food.image}
           alt={food.name}
           loading="lazy"
-          className="aspect-4/3 w-full object-cover"
+          className="w-full object-cover"
         />
         {hasDiscount && (
           <span className="absolute left-3 top-3 rounded-full bg-orange-500 px-3 py-1 text-xs font-semibold text-white sm:text-sm">

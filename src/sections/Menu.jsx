@@ -63,7 +63,7 @@ const Menu = () => {
 
         {/* Food grid */}
         {filteredFood.length > 0 ? (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
+          <div className="flex shrink-0 overflow-x-scroll gap-8">
             {filteredFood.map((food) => (
               <FoodCard food={food} key={food.id} />
             ))}
